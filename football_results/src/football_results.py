@@ -13,5 +13,8 @@ def get_result(final_score):
         return "Invalid input"
 
 def get_results(final_scores):
-    pass
-    # (You could try and use a list comprehension for this)
+    if type(final_scores) == list:
+        results = [get_result(score) for score in final_scores]
+        return results
+    else:
+        return "Invalid input"
