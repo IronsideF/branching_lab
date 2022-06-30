@@ -10,6 +10,7 @@ class HighScoresTest(unittest.TestCase):
     # Tests
 
     # Test latest score (the last thing in the list)
+    
 
     # Test personal best (the highest score in the list)
 
